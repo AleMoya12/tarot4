@@ -2,7 +2,30 @@
 
 /* CSS Document */
 
+/* Whtasapp */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
 
+.my-float{
+	margin-top:16px;
+}
 /******************************
 
 [Table of Contents]
@@ -62,7 +85,7 @@
         padding-left: 50px;
     }
     .logo a {
-        font-size: 28px;
+        font-size: 22px;
     }
     .search {
         width: auto;
@@ -286,7 +309,11 @@
 @media only screen and (max-width: 575px) {
     .logo {
         padding-left: 15px;
+        
     }
+   /*  .logo a {
+        font-size: 12px;
+    } */
     .hamburger_container {
         margin-right: 5px;
     }
@@ -396,7 +423,7 @@
         background: rgba(27, 11, 51, 0.92);
     }
     .logo a {
-        font-size: 18px;
+        font-size: 16px;
     }
     .button {
         height: 40px;

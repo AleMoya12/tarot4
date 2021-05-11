@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <title>Contacto</title>
+    <title>Pautas de Amor</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="RanGO Project">
@@ -15,7 +15,10 @@
 </head>
 
 <body>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=3794048347&text=Hola%20quisiera%20mas%20info%20sobre%20sus%20servicios.." class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
     <div class="super_container">
 
         <!-- Header -->
@@ -24,7 +27,7 @@
 
             <!-- Logo -->
             <div class="logo mr-auto">
-                <a href="index.html">Am<span>or</span></a>
+                <a href="index.html" style="font-size: 24px;">Pautas de <span>Amor</span></a>
             </div>
 
             <!-- Navigation -->
@@ -101,16 +104,16 @@
                         <div class="reply">
 
                             <div class="reply_title">Contános tu historia</div>
-                            <div class="reply_form_container">
+                            <div class="reply_form_container" style="border: 2px solid; padding: 10px;">
 
                                 <!-- Reply Form -->
 
-                                <form id="reply_form" action="post">
+                                <form id="reply_form" action="contact_process.php" method="POST">
                                     <div>
-                                        <input id="reply_form_name" class="input_field reply_form_name" type="text" placeholder="Nombre" required="required" data-error="Name is required.">
-                                        <input id="reply_form_email" class="input_field reply_form_email" type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
-                                        <input id="reply_form_subject" class="input_field reply_form_subject" type="text" placeholder="Motivo" required="required" data-error="Subject is required.">
-                                        <textarea id="reply_form_message" class="text_field reply_form_message" name="message" placeholder="Mensaje" rows="4" required data-error="Please, write us a message."></textarea>
+                                        <input id="reply_form_name" class="input_field reply_form_name" type="text" name="name" placeholder="Nombre" required="required" data-error="Nombre requerido.">
+                                        <input id="reply_form_email" class="input_field reply_form_email" type="email" name="email" placeholder="E-mail" required="required" data-error="Ingrese un Email valido.">
+                                        <input id="reply_form_subject" class="input_field reply_form_subject" type="text" name="subject" placeholder="Motivo" required="required" data-error="Asunto requerido.">
+                                        <textarea id="reply_form_message" class="text_field reply_form_message" name="message" placeholder="Deje su mensaje y nos contactaremos con usted..." rows="4" required data-error="Por favor deje su mensaje."></textarea>
                                     </div>
                                     <div>
                                         <button id="reply_form_submit" type="submit" class="reply_submit_btn trans_300" value="Submit">
@@ -136,7 +139,7 @@
                             <div class="contact_info_container">
 
                                 <div class="logo contact_logo">
-                                    <a href="index.html">Am<span>or</span></a>
+                                    <a href="index.html">Pautas de <span>Amor</span></a>
                                 </div>
                                 <p>Cuando confiamos en nosotros mismos, y salimos de este estado de shock podremos ver la luz al final del túnel, y ya el miedo deja de ocupar el primer lugar en tu vida, para arriesgarte a cambiarla por completo.</p>
 
@@ -145,8 +148,8 @@
                                     <div class="contact_info_content">
                                         <ul>
 
-                                            <li class="phone">3794048347</li>
-                                            <li class="email">hello@company.com</li>
+                                            <li class="phone"><a href="https://api.whatsapp.com/send?phone=3794048347&text=Hola%20quisiera%20mas%20info%20sobre%20sus%20servicios.."style="color: green;" target="_blank"> 3794048347</a></li>
+                                            <li class="email"><a href="mailto:melinaanahi97@gmail.com" style="color: green;">melinaanahi97@gmail.com</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -168,14 +171,14 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-4">
+                    <div class="col-12">
 
                         <!-- Footer Intro -->
                         <div class="footer_intro">
 
                             <!-- Logo -->
                             <div class="logo footer_logo">
-                                <a href="index.html">Am<span>or</span></a>
+                                <a href="index.html">Pautas de <span>Amor</span></a>
                             </div>
                             <div class="footer_cr">
 
