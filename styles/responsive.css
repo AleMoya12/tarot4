@@ -511,4 +511,8 @@
 14. 400px
 ************/
 
-@media only screen and (max-width: 400px) {}
+@media only screen and (max-width: 319px) {
+header div:first-child{
+    font-size: 0.5em;
+}
+}

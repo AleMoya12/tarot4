@@ -375,7 +375,7 @@ section
 	font-size: 36px;
 	font-weight: 500;
 	color: #fefefe;
-	letter-spacing: 0.1em;
+	/* letter-spacing: 0.1em; */
 	line-height: 128px;
 }
 .logo a span
